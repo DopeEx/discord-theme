@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
-	--version-content: "0.1"
+	--version-content: "1.0"
 }
 /* Version Displayed */
 
@@ -39,6 +39,12 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .flex-vertical.channels-wrap{min-width: var(--channel-width) !important;}
 
 .channel-members-wrap{min-width: var(--members-width) !important;}
+
+.channel-members{max-width: var(--members-width) !important;}
+
+.channel-members .member .member-inner{width: 85% !important;}
+
+.accountDetails-15i-_e .username{max-width: 95% !important;}
 
 .help-container{display:none;}
 
@@ -2759,7 +2765,7 @@ polyline[stroke*="#7289da"]{stroke:var(--accent-color) !important;}
 
 .ui-card[style*="padding: 10px; border-color: rgb(240, 71, 71); background-color: rgb(240, 71, 71);"] {border-color: #f04747 !important;background-color: #f04747 !important;border: 2px solid #f04747 !important;}
 
-.channel-members::after {content: "=GdZ= v"var(--version-content);font-family: "Satisfy";text-align: center;background: var(--main-color1);color: #2e2e30;font-weight: 700;font-size: 250%;width: 100%;height: 70px;bottom: 0px;position: absolute;line-height: 75px;border-top: 2px solid #212121;left: -2px;z-index: 1;border-radius: 0px !important;padding-right: 30px;}
+.channel-members::after {content: "=GdZ= v"var(--version-content);text-align: center;background: var(--main-color1);color: #2e2e30;font-weight: 700;font-size: 250%;width: 100%;height: 70px;bottom: 0px;position: absolute;line-height: 75px;border-top: 2px solid #212121;left: -2px;z-index: 1;border-radius: 0px !important;padding-right: 30px;}
 
 #friends .friends-table .friends-table-body::after{content: "";background: var(--main-color1);width: 1400px;height: 70px;bottom: 0px;position: absolute;border-top: 2px solid #212121;}
 
@@ -2777,7 +2783,7 @@ polyline[stroke*="#7289da"]{stroke:var(--accent-color) !important;}
 
 .guilds-wrapper .dms{display: block;margin-top: -10px;margin-bottom: -4px;}
 
-.app .guilds .guild:first-child{border-bottom: 2px solid var(--accent-color);background: var(--main-color1);top: 1px;padding-bottom: 1px;position: fixed;width: 79px;left: -3px;z-index: 2;}
+.app .guilds .guild:first-child{border-bottom: 2px solid var(--accent-color);background: var(--main-color1);top: 0px;padding-bottom: 1px;position: fixed;width: 79px;left: -3px;z-index: 2;}
 
 .app .guilds .guild:first-of-type .guild-inner{background: var(--main-color1) !important;}
 
