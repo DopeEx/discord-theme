@@ -921,6 +921,10 @@ textarea{background:transparent !important;}
 
 #friends .btn,.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected{background-color:var(--accent-color);color:#fff;}
 
+.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, .colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, .colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {color: var(--accent-color) !important;}
+
+.icon-3tVJnl {opacity: 1 !important;}
+
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected),#friends .friends-empty .btn:hover{background-color:var(--accent-color);}
 
 .add-friend-popout{background:transparent;}
